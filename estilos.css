@@ -1,57 +1,231 @@
-
-body{
+body {
     background-color: rgb(110, 18, 98);
 }
 
-h1{
+h1 {
     color: white;
     text-align: center;
 }
-.contenedor{
-   width: 90%;
-   max-width: 468px;
-   margin: 0 auto;
+
+.contenedor {
+    width: 90%;
+    max-width: 468px;
+    margin: 0 auto;
 }
 
-img{
-max-width: 100%;
+img {
+    max-width: 100%;
 }
 
 .collage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 200px ; 
-  gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 15px;
+    justify-content: center;
 }
 
-.cars{
-   object-fit: contain;
-border: 10px solid rgb(179, 112, 175);
-transform: rotate(10deg);
-overflow: hidden;
+.cars {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(10deg);
+    overflow: hidden;
     transition: transform 1s ease;
 }
 
 
-.collage .cars img{
+.collage .cars img {
     height: 100%;
     width: 100%;
 }
 
-.cars-2 img{
-object-fit: contain;
-border: 10px solid rgb(179, 112, 175);
-transform: rotate(-15deg);
-overflow: hidden;
- transition: transform 1s ease;
-}
-
-.cars:hover{
-    transform:scale(1.2);
+.cars-2 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(-15deg);
+    overflow: hidden;
     transition: transform 1s ease;
 }
 
-.cars-2:hover{
-    transform:scale(1.2);
+.cars:hover {
+    transform: scale(1.2);
     transition: transform 1s ease;
+}
+
+.cars-2:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+
+.cars-15 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(15deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-3 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(-20deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-4 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(25deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+    height: 100%;
+}
+
+.cars-5 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(-15deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-6 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(15deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-7 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(5deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-8 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(-25deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-9 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(20deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-10 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(10deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-11 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(-15deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-12 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(15deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-13 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(-15deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-14 img {
+    object-fit: contain;
+    border: 10px solid rgb(179, 112, 175);
+    transform: rotate(25deg);
+    overflow: hidden;
+    transition: transform 1s ease;
+}
+
+.cars-3:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-4:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-5:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-6:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-7:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-8:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-9:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-10:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-11:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-12:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-13:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-14:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+.cars-15:hover {
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
+
+@media (min-width:768px){
+  .collage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width:1024px){
+  .collage{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1024px;
+  }
 }
